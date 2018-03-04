@@ -1,0 +1,64 @@
+.state 
+{
+	stroke:darkslateblue;
+	stroke-width:2;
+	stroke-opacity:1;
+}
+
+.state:hover {
+    stroke:midnightblue;
+    stroke-width:4;
+    fill:red;
+}
+
+.territory
+{
+	opacity:0;
+	fill:#E0E0E0;
+	stroke:#646464;
+	stroke-width:1;
+	stroke-opacity:1;
+}
+
+.territoryborder
+{
+	opacity:0;
+	fill:none;
+	stroke:#A9A9A9;
+	stroke-width:2;
+}
+
+.border
+{
+	opacity:1;
+	fill:none;
+	stroke:#A9A9A9;
+	stroke-width:2;
+}
+
+.circle
+{
+   opacity:1;
+   fill:#E0E0E0;
+   stroke:#646464;
+   stroke-width:1;
+}
+
+
+body {
+    padding: 0px;
+    text-align: center;
+    margin: auto 0;
+}
+
+#content {
+    width:900px;
+	margin:0px auto;
+	padding:15px;
+    
+}
+
+/*.plane {
+    visibility: hidden;
+    display: none;
+}*/
